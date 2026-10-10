@@ -1,5 +1,6 @@
+# Capstone_Oct2026
 
-# Mamaearth returns & growth intelligence pipeline
+## Mamaearth returns & growth intelligence pipeline
 
 **Capstone - Data Analytics with AI & Gen AI, E&ICT Academy IIT Roorkee** | Author: Nipun Malik
 
