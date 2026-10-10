@@ -1,0 +1,22 @@
+SOURCE: offline template
+NOTE: Offline template path (no Gemini call made).
+
+SITUATION
+After reconciliation, cleaned revenue is INR 97,358.30 versus raw revenue of INR 99,860.20. The INR 2,501.90 difference is attributable to duplicate orders.
+
+COMPLICATION
+The payment return rates vary: COD 44.4%, CARD 14.7%, and UPI 18.9%. The highest-risk segment is COD orders in tier-2 cities, with a 54.5% return rate. The outlier-inflated peak is 2026-01 at INR 29,582.10; its corrected revenue is INR 11,637.10. The true peak is March (2026-03) at INR 20,318.90.
+
+RESOLUTION
+1. Regional ops: investigate COD orders in tier-2 cities and prioritize interventions there, given its 54.5% return rate.
+2. Payments: review the COD process first, since its return rate is higher than CARD and UPI.
+3. Finance: use the corrected 2026-01 revenue of INR 11,637.10 and March peak revenue of INR 20,318.90 when planning.
+4. Analytics: continue monitoring payment- and segment-level returns alongside monthly revenue.
+
+ACCURACY CHECK (key figures vs findings.json)
+  [PASS] Cleaned total revenue: 97,358.30 or 97358.3
+  [PASS] COD return rate: 44.4
+  [PASS] Highest-risk segment return rate: 54.5
+  [PASS] Duplicate reconciliation delta: 2,501.90 or 2501.9
+  [PASS] True peak month and revenue: March and 20,318.90 or 20318.9
+  Result: 5/5 key figures found

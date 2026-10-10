@@ -1,0 +1,11 @@
+# build artefacts (rebuilt by sql/run_sql.py)
+sql/mamaearth.db
+__pycache__/
+*.pyc
+
+# Secrets - local .env files may contain API keys and must never be committed.
+.env
+*.key
+
+# macOS Finder metadata
+.DS_Store
